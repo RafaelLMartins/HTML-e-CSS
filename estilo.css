@@ -1,5 +1,7 @@
 .avatar {
 			width: 100px;
+			border-radius: 50px;
+			border: 1px solid #505050;
 		}
 
 .imagem2{
@@ -8,7 +10,7 @@
 		}
 
 h1, h2, h3{
-	color: blue;
+	color: #585858;
 }
 
 h3{
@@ -19,19 +21,19 @@ h3{
 }
 
 body {
-	background: gray;
+	background: #f7f7f7;
 }
 
 .post{
 
-	background-color: #080;
+	background-color: #fff;
 	padding: 15px;
-	border: 3px solid black;
-	border-top: 2px dotted green;
+	border: 3px solid #505050;
+	/*border-top: 2px dotted green;
 	border-left-width: 3px;
 	border-left-color: red;
-	border-left-style: dashed;
-	border-radius: 10px 20% 15% 22%;
+	border-left-style: dashed;*/
+	border-radius: 5px;
 	margin-bottom: 15px;
 }
 
