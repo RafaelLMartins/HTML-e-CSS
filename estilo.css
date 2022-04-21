@@ -5,7 +5,7 @@
 		}
 
 .imagem2{
-			width:  500px;
+			width:  100%;
 			margin-bottom: 15px;
 		}
 
@@ -24,6 +24,8 @@ h3{
 body {
 	background: #f7f7f7;
 	font font-family: verdana;
+	max-width: 900px;
+	margin: auto;
 }
 
 a{
@@ -49,4 +51,16 @@ a{
 	margin: 0;
 	margin-bottom: 15px;
 	text-transform: capitalize;
+	text-align: justify;
+}
+
+.lista-contato{
+	list-style-type: none;
+	padding: 0;
+	padding-left: 15px;
+
+}
+
+.lista-contato li a{
+	text-decoration: none;
 }
